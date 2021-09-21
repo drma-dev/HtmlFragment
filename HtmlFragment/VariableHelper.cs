@@ -69,7 +69,7 @@ namespace HtmlFragment
 
         public async Task RequestNewValue(IMatDialogService MatDialogService)
         {
-            MatDialogService.AlertAsync("alert");
+            await MatDialogService.AlertAsync("alert");
 
             //var att = new Dictionary<string, object>
             //{
